@@ -1,4 +1,4 @@
-name: "PR Checker Action"
+name: "PR Validate Project"
 description: "Action to check PR title contains Management Number and contain required labels"
 inputs:
   gh_token:
