@@ -57,7 +57,7 @@ class PrChecker {
         this.createComment(errorMessage);
       }
 
-      core.setFailed(`Agregue el número de ${this.projectMMonitoring} o NO${this.projectMMonitoring.toUpperCase()} en el título del PR`);
+      core.setFailed(`Agregue el numero de ${this.projectMMonitoring} o NO${this.projectMMonitoring.toUpperCase()} en el título del PR`);
     } else if (!(await this.isLastComment(SUCCESS_MESSAGE))) {
       this.createComment(SUCCESS_MESSAGE);
     }
