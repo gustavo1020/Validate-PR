@@ -1,0 +1,23 @@
+{
+  "name": "pr-checker-github-action",
+  "version": "1.2.1",
+  "description": "",
+  "author": {
+    "name": "Gonzalo Santome"
+  },
+  "type": "module",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "esbuild src/main.ts --outfile=dist/main.js --platform=node --target=node16"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "esbuild": "^0.14.1",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.3"
+  }
+}
