@@ -21,7 +21,7 @@ You will not be able to merge the Pull Request if the action is not passing both
 
 ```
 - name: Label Checker
-  uses: santomegonzalo/pr-checker-github-action
+  uses: gustavo1020/Validate-PR@v1.0.0-stable-1
   id: pr-checker-github-action
   with:
     gh_token: ${{ secrets.GITHUB_TOKEN }}
