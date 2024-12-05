@@ -5,6 +5,9 @@
   "author": {
     "name": "Gonzalo Santome"
   },
+  "Edit": {
+    "name": "Gustavo Venturo"
+  },
   "type": "module",
   "main": "dist/main.js",
   "scripts": {
